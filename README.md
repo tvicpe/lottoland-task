@@ -36,7 +36,12 @@ Git repository of this project is located on [https://github.com/tvicpe/lottolan
     npm start
     ```
 5. access the project in your browser by navigatin to [http://localhost:4200](http://localhost:4200)
-6. Enjoy!
+6. WARNING!  
+Taking in consideration that json feed is on other domain, you have to include cors-headers 
+on the backend side while generating this json file. In order to test it as it is,
+please disable web-security in your browser to avoid CORS issue.  
+More information can be found here: [https://stackoverflow.com/questions/35432749/disable-web-security-in-chrome-48](https://stackoverflow.com/questions/35432749/disable-web-security-in-chrome-48)
+7. Enjoy!
     
 ## <a name="demo"></a> Demo
 A live demo of this project is available on [http://lotto.tomsa.md](http://lotto.tomsa.md)
