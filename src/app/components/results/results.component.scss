@@ -2,6 +2,8 @@
 
   display: inline-block;
   font-size: 17px;
+  color: #FFFFFF;
+  background-color: #A9A9A9;
   width: 35px;
   height: 35px;
   line-height: 35px;
@@ -11,6 +13,6 @@
   margin-right: 7px;
   margin-bottom: 7px;
   &.euronr{
-    border: 1px solid #ca7f26;
+    background-color: #FF0000;
   }
 }
