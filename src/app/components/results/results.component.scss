@@ -1,0 +1,16 @@
+.nr {
+
+  display: inline-block;
+  font-size: 17px;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  border: 1px solid #d9deda;
+  border-radius: 50%;
+  margin-right: 7px;
+  margin-bottom: 7px;
+  &.euronr{
+    border: 1px solid #ca7f26;
+  }
+}

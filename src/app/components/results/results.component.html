@@ -1,0 +1,6 @@
+
+<p *ngIf="date">EuroJackpot Results for {{date | date:'d MMMM y'}}</p>
+
+<div *ngFor="let number of numbers" class="nr">{{number}}</div>
+<div *ngFor="let euroNumber of euroNumbers" class="nr euronr">{{euroNumber}}</div>
+
